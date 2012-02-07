@@ -16,8 +16,13 @@ env:
 hooks:
 
 services:
+    postgresql: postgresql-kotti
   
 ignores: 
   - .git
   - .pyc
+  - bin
+  - include
+  - lib
+  - local
   - Kotti.db
