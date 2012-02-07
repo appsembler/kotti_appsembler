@@ -1,0 +1,23 @@
+#Required replacements... ::
+#  name -- app name chosen by the user
+#  project_root -- usually the name when you git clone the project, 
+#                  but needs to be the name of what you add to the python path
+
+mem: 64M
+
+instances: 1
+ 
+framework:
+    type: python
+    runtime: python27
+    
+env:
+  
+hooks:
+
+services:
+  
+ignores: 
+  - .git
+  - .pyc
+  - Kotti.db
